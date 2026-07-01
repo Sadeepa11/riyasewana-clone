@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"D:\\\\Riyasewana-Clone\\\\UI Screen Shots\")",
+      "Bash(dir \"D:\\\\Riyasewana-Clone\")",
+      "Bash(dir \"D:\\\\Riyasewana-Clone\\\\Riyasewana Clone\")",
+      "Bash(npm install *)",
+      "Bash(copy \"D:\\\\Riyasewana-Clone\\\\UI Screen Shots\\\\contact-illustration.webp\" \"D:\\\\Riyasewana-Clone\\\\Riyasewana Clone\\\\public\\\\contact-illustration.webp\")",
+      "Bash(copy \"D:\\\\Riyasewana-Clone\\\\UI Screen Shots\\\\Leasing.jpg\" \"D:\\\\Riyasewana-Clone\\\\Riyasewana Clone\\\\public\\\\leasing.jpg\")",
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "PowerShell(Start-Process \"http://localhost:5175\")",
+      "Bash(node -e \"const lr = require\\('lucide-react'\\); console.log\\('Youtube:', 'Youtube' in lr\\); console.log\\('Facebook:', 'Facebook' in lr\\); console.log\\('Twitter:', 'Twitter' in lr\\); console.log\\('Linkedin:', 'Linkedin' in lr\\); console.log\\('Instagram:', 'Instagram' in lr\\); console.log\\('Youtube1:', 'Youtube' in lr\\); const keys = Object.keys\\(lr\\).filter\\(k => k.toLowerCase\\(\\).includes\\('you'\\) || k.toLowerCase\\(\\).includes\\('face'\\) || k.toLowerCase\\(\\).includes\\('twit'\\) || k.toLowerCase\\(\\).includes\\('link'\\) || k.toLowerCase\\(\\).includes\\('inst'\\)\\); console.log\\(keys\\);\")",
+      "Bash(node -e \"const lr = require\\('lucide-react'\\); const keys = Object.keys\\(lr\\).filter\\(k => !k.startsWith\\('Lucide'\\) && !k.endsWith\\('Icon'\\)\\).filter\\(k => k.match\\(/^[A-Z]/\\)\\).sort\\(\\); console.log\\(keys.filter\\(k => k.includes\\('Play'\\) || k.includes\\('Video'\\) || k.includes\\('Bird'\\) || k.includes\\('Globe'\\) || k.includes\\('Camera'\\) || k.includes\\('Rss'\\)\\)\\);\")",
+      "Bash(dir D:\\\\Riyasewana-Clone\\\\UI Screen Shots *)",
+      "Bash(dir \"D:\\\\Riyasewana-Clone\\\\Riyasewana Clone\\\\src\")",
+      "Bash(cat tsconfig.json)",
+      "Bash(cat tsconfig.app.json)",
+      "Bash(npm list *)",
+      "Bash(node -e \"const lr = require\\('lucide-react'\\); const keys = Object.keys\\(lr\\).filter\\(k => !k.startsWith\\('Lucide'\\) && !k.endsWith\\('Icon'\\)\\).filter\\(k => k.match\\(/^[A-Z]/\\) && \\(k.toLowerCase\\(\\).includes\\('bike'\\) || k.toLowerCase\\(\\).includes\\('wrench'\\) || k.toLowerCase\\(\\).includes\\('cycle'\\)\\)\\); console.log\\(keys\\);\")",
+      "PowerShell(Start-Process \"http://localhost:5173/\")",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(npx vite *)",
+      "Bash(Remove-Item *)"
+    ]
+  }
+}
