@@ -21,7 +21,11 @@
       "PowerShell(Start-Process \"http://localhost:5173/\")",
       "Bash(curl -s http://localhost:5173/)",
       "Bash(npx vite *)",
-      "Bash(Remove-Item *)"
+      "Bash(Remove-Item *)",
+      "PowerShell(vercel *)",
+      "PowerShell(npm install *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\stf\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--Riyasewana-Clone\\\\75da8e68-82cd-4b56-9992-5a47f481cfd8\\\\tasks\\\\br1aht570.output\" -Wait)",
+      "PowerShell(Get-Command *)"
     ]
   }
 }
