@@ -348,7 +348,7 @@ export default function HomePage() {
       </div>
 
       {/* Popular Brands & Types */}
-      <div className="wrap" style={{ padding: '20px 20px 0' }}>
+      <div className="wrap" style={{ padding: '20px 20px 32px' }}>
         <div className="card" style={{ padding: '16px 20px' }}>
           <h2 style={{ fontSize: 15, fontWeight: 700, color: '#1a1a2e', margin: 0 }}>
             Popular Brands &amp; Types
