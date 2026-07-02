@@ -7,7 +7,9 @@ export default function MainLayout() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <CategoryBar />
+      <div className="desktop-only">
+        <CategoryBar />
+      </div>
       <main className="flex-1">
         <Outlet />
       </main>

@@ -1,7 +1,11 @@
 export default function Logo() {
   return (
-    <span style={{ color: '#fff', fontSize: '22px', fontWeight: '700', fontFamily: 'Open Sans, sans-serif', letterSpacing: '0.5px' }}>
-      Logo
-    </span>
+    <img
+      src="https://riyasewana.com/images/logo.svg"
+      width={105}
+      height={35}
+      alt="Buy & Sell Vehicles in Sri Lanka"
+      style={{ display: 'block' }}
+    />
   );
 }

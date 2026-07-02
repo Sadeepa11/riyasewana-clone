@@ -25,7 +25,11 @@
       "PowerShell(vercel *)",
       "PowerShell(npm install *)",
       "Bash(Get-Content \"C:\\\\Users\\\\stf\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--Riyasewana-Clone\\\\75da8e68-82cd-4b56-9992-5a47f481cfd8\\\\tasks\\\\br1aht570.output\" -Wait)",
-      "PowerShell(Get-Command *)"
+      "PowerShell(Get-Command *)",
+      "PowerShell(Get-ChildItem \"D:\\\\Riyasewana-Clone\\\\Riyasewana-Clone\\\\src\" -Recurse | ForEach-Object { $_.FullName })",
+      "Bash(git checkout *)",
+      "PowerShell(Receive-Job *)",
+      "PowerShell(echo $LASTEXITCODE)"
     ]
   }
 }
