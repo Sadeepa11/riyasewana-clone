@@ -31,7 +31,8 @@
       "PowerShell(Receive-Job *)",
       "PowerShell(echo $LASTEXITCODE)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git pull *)"
     ]
   }
 }
