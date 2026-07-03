@@ -29,7 +29,9 @@
       "PowerShell(Get-ChildItem \"D:\\\\Riyasewana-Clone\\\\Riyasewana-Clone\\\\src\" -Recurse | ForEach-Object { $_.FullName })",
       "Bash(git checkout *)",
       "PowerShell(Receive-Job *)",
-      "PowerShell(echo $LASTEXITCODE)"
+      "PowerShell(echo $LASTEXITCODE)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ]
   }
 }
